@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.novoda.textpager.widget.CustomHorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Fill"
+    android:orientation="vertical"
+    android:id="@+id/scroll" >
+    <TextView
+        style="@style/Fill"
+        android:singleLine="true"
+        android:id="@+id/text"
+        /> 
+</com.novoda.textpager.widget.CustomHorizontalScrollView>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- STLYING KEY _THEME _WIDTH_HEIGHT -->
+  <!-- _THEME -->
+  <style
+    name="Theme"
+    parent="android:Theme.Holo" />
+ 
+  <!-- _WIDTH_HEIGHT -->
+  <style name="Fill">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:orientation">vertical</item>
+  </style>
+  <style name="Wrap">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:orientation">vertical</item>
+  </style>
+  <style
+    name="Fill.Wrap"
+    parent="Fill">
+    <item name="android:paddingTop">@dimen/activity_gutter_padding_top</item>
+    <item name="android:paddingLeft">@dimen/activity_gutter_padding_left</item>
+    <item name="android:paddingRight">@dimen/activity_gutter_padding_right</item>
+  </style>
+  <style
+    name="Fill.Height"
+    parent="Fill">
+    <item name="android:layout_width">wrap_content</item>
+  </style>
+  <style
+    name="Fill.Width"
+    parent="Fill">
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+  <style
+    name="Fill.Width.Centre"
+    parent="Fill.Width">
+    <item name="android:gravity">center</item>
+  </style>
+  <style
+    name="Fill.Width.Horizontal"
+    parent="Fill.Width">
+    <item name="android:orientation">horizontal</item>
+  </style>
+  <style
+    name="Fill.Width.Horizontal.Wrap"
+    parent="Fill.Width.Horizontal">
+    <item name="android:paddingLeft">@dimen/activity_gutter_padding</item>
+    <item name="android:paddingRight">@dimen/activity_gutter_padding</item>
+  </style>
+  <style
+    name="Fill.HorizontalOrientation"
+    parent="Fill">
+    <item name="android:orientation">horizontal</item>
+  </style>
+  <style
+    name="Fill.Width.Wrap"
+    parent="Fill.Width">
+    <item name="android:paddingTop">@dimen/activity_gutter_padding_top</item>
+    <item name="android:paddingLeft">@dimen/activity_gutter_padding_left</item>
+    <item name="android:paddingRight">@dimen/activity_gutter_padding_right</item>
+  </style>
+
+  <style
+    name="fill_vertical"
+    parent="Fill">
+    <item name="android:orientation">vertical</item>
+  </style>
+
+  <style name="TitleText">
+    <item name="android:textSize">18.0sp</item>
+    <item name="android:ellipsize">end</item>
+    <item name="android:singleLine">true</item>
+  </style>
+
+  <style
+    name="HeaderText"
+    parent="TitleText">
+    <item name="android:textSize">16.0sp</item>
+  </style>
+
+  <style
+    name="SmallHeaderText"
+    parent="TitleText">
+    <item name="android:textSize">14.0sp</item>
+  </style>
+
+  <style
+    name="BodyText"
+    parent="TitleText">
+    <item name="android:textSize">12.0sp</item>
+  </style>
+
+</resources>

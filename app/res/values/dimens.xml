@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    
+    <dimen name="text_size_smaller">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+    
+    <dimen name="text_size_heading_smaller">11.0sp</dimen>	
+    <dimen name="text_size_heading_small">13.0sp</dimen>	
+    <dimen name="text_size_heading_medium">17.5sp</dimen>	
+    <dimen name="text_size_heading_large">25.0sp</dimen>	
+    
+    <dimen name="list_image">50dp</dimen>
+    <dimen name="list_image_small">56dp</dimen>
+    <dimen name="list_image_profile">80dp</dimen>
+    <dimen name="gallery_image">150dp</dimen>
+
+    <dimen name="list_height">100dp</dimen>
+    <dimen name="li_child_padding">18dp</dimen>
+    <dimen name="li_image_margin_left">62dp</dimen>
+    
+    <dimen name="search_result_distance_div_width">44dp</dimen>
+    <dimen name="search_result_distance_div_height">44dp</dimen>
+    <dimen name="search_list_footer_div_height">86dp</dimen>
+    <dimen name="near_me_text_max_width">182dp</dimen>
+    
+    <dimen name="search_history_list_bottom_padding">40dp</dimen>
+    
+    <dimen name="activity_gutter_padding">10dp</dimen>
+    <dimen name="activity_gutter_padding_half">5dp</dimen>
+    <dimen name="activity_gutter_padding_top">8dp</dimen>
+    <dimen name="activity_gutter_padding_top_profile_group">15dp</dimen>
+    <dimen name="activity_gutter_padding_left">14dp</dimen>
+    <dimen name="activity_gutter_padding_right">14dp</dimen>
+    <dimen name="activity_smaller_gutter_padding">5dp</dimen>
+    <dimen name="activity_dashboard_gutter_padding">16dp</dimen>
+    <dimen name="login_gutter_padding">20dp</dimen>
+
+    <dimen name="lbl_padding">6dp</dimen>
+    <dimen name="lbl_padding_small">4dp</dimen>
+    <dimen name="lbl_padding_extra_small">1dp</dimen>
+    
+    <dimen name="widget_1cell">72dp</dimen>
+	<dimen name="widget_4cell">286dp</dimen>
+	
+	<dimen name="app_icon">26dp</dimen>
+    
+</resources>
